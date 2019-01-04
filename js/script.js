@@ -6,10 +6,11 @@ let total = 0;
 
                                                                 //Ecran 1
 let container = document.createElement("div");
-document.body.appendChild(container);
+document.body.appendChild(container).style.textAlign = "center";
 let p = document.createElement("p");
 container.appendChild(p);
 p.textContent = "Séletionnez un ou plusieurs plats";
+
 
 let form1 = document.createElement("form");
 container.appendChild(form1);
@@ -93,7 +94,7 @@ function msgerreur() {
 
                                                             //Ecran 2 container1
 let container1 = document.createElement("div");
-document.body.appendChild(container1);
+document.body.appendChild(container1).style.textAlign = "center";
 let p1 = document.createElement("p");
 container1.appendChild(p1);
 container1.hidden = true;
@@ -133,7 +134,7 @@ function suite() {
                                                             //ecran 3 container2
 let container2 = document.createElement("div");
 container2.hidden = true;
-document.body.appendChild(container2);
+document.body.appendChild(container2).style.textAlign = "center";
 let p2 = document.createElement("p");
 container2.appendChild(p2);
 
@@ -198,7 +199,7 @@ function suite1 () {
                                                           //ecran 4 container3
 let container3 = document.createElement("div");
 container3.hidden = true;
-document.body.appendChild(container3);
+document.body.appendChild(container3).style.textAlign = "center";
 let p3 = document.createElement("p");
 container3.appendChild(p3);
 
@@ -313,7 +314,7 @@ labelerreur1.hidden = true;
                                                           //Ecran 5 container5
 let container4 = document.createElement("div");
 container4.hidden = true;
-document.body.appendChild(container4);
+document.body.appendChild(container4).style.textAlign = "center";
 let p11 = document.createElement("p");
 container4.appendChild(p11);
 
